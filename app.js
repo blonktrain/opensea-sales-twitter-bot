@@ -31,9 +31,9 @@ function formatAndSendTweet(event) {
     //     return;
     // }
 
-     OPTIONAL PREFERENCE - if you want the tweet to include an attached image instead of just text
-    const imageUrl = _.get(event, ['asset', 'image_url']);
-    return tweet.tweetWithImage(tweetText, imageUrl);
+    // OPTIONAL PREFERENCE - if you want the tweet to include an attached image instead of just text
+    // const imageUrl = _.get(event, ['asset', 'image_url']);
+    // return tweet.tweetWithImage(tweetText, imageUrl);
 
     return tweet.tweet(tweetText);
 }

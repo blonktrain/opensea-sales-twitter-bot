@@ -15,6 +15,7 @@
     "dependencies": {
         "axios": "^0.21.1",
         "ethers": "^5.3.1",
+        "heroku": "^7.60.0",
         "lodash": "^4.17.21",
         "moment": "^2.29.1",
         "twit": "^2.2.11"
